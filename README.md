@@ -1,4 +1,5 @@
 # UNO multiplayer
+ Tecnologie Internet
 Piattaforma web multiplayer per giocare a UNO.
 
 ## 1. Presentazione:
@@ -83,3 +84,6 @@ uno-online/
 - **Node.js** — ambiente di esecuzione del server: ospita API, motore di gioco e long-polling.
 - **MySQL** — database: conserva utenti, sessioni, stanze, partecipanti e partite; lo stato di ogni partita è salvato in una colonna JSON.
 - **JSON** — formato di scambio tra client e server e formato di salvataggio dello stato della partita.
+
+## 6. Struttura database:
+<img width="841" height="566" alt="image" src="https://github.com/user-attachments/assets/7a9420f3-4932-441d-8202-4b6636129760" />
