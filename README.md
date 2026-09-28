@@ -1,4 +1,4 @@
-# uno-multiplayer
+# UNO multiplayer
 Piattaforma web multiplayer per giocare a UNO.
 
 ## 1. Presentazione:
@@ -9,9 +9,6 @@ Il sistema ha un'architettura client/server: un client React comunica con un ser
 ```sh
 # installare le dipendenze di server e client e compilare il client React
 npm run setup
-
-# creare il file di configurazione e modificare DB_USER, DB_PASSWORD e SESSION_SECRET
-cp .env.example .env
 
 # creare database e tabelle
 npm run db:init
