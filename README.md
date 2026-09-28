@@ -87,6 +87,6 @@ uno-online/
 - **MySQL** — database: conserva utenti, sessioni, stanze, partecipanti e partite; lo stato di ogni partita è salvato in una colonna JSON.
 - **JSON** — formato di scambio tra client e server e formato di salvataggio dello stato della partita.
 
-## 6. Struttura database:
+## 6. Schema database:
 <img width="777" height="537" alt="image" src="https://github.com/user-attachments/assets/4b6efdbb-99fe-49c2-a5ba-d449aedea22f" />
 
