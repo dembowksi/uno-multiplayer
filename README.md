@@ -1,9 +1,11 @@
 # UNO multiplayer
 Progetto Tecnologie Internet - Camilla Dembowski
+
 Piattaforma web multiplayer per giocare a UNO.
 
 ## 1. Presentazione:
 Permette a più utenti registrati di ritrovarsi in una lobby, creare o entrare in una stanza e giocare una partita a UNO.
+
 Il sistema ha un'architettura client/server: un client React comunica con un server Node.js tramite API REST in JSON. Lo stato è salvato su un database MySQL.
 
 ## 2. Avvio del progetto:
