@@ -71,8 +71,7 @@ uno-online/
  ┃          ┣━ GameView.jsx  tavolo di gioco
  ┃          ┗━ style.css     stile dell'interfaccia e delle carte
  ┣━━ db/schema.sql           schema del database
- ┣━━ scripts/init-db.js      inizializzazione del database
- ┗━━ .env.example            modello di configurazione
+ ┗━━ scripts/init-db.js      inizializzazione del database
 ```
 
 ## 5. Tecnologie utilizzate:
