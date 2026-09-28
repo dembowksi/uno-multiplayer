@@ -1,5 +1,5 @@
 # UNO multiplayer
- Tecnologie Internet
+Progetto Tecnologie Internet - Camilla Dembowski
 Piattaforma web multiplayer per giocare a UNO.
 
 ## 1. Presentazione:
@@ -86,4 +86,5 @@ uno-online/
 - **JSON** — formato di scambio tra client e server e formato di salvataggio dello stato della partita.
 
 ## 6. Struttura database:
-<img width="841" height="566" alt="image" src="https://github.com/user-attachments/assets/7a9420f3-4932-441d-8202-4b6636129760" />
+<img width="777" height="537" alt="image" src="https://github.com/user-attachments/assets/4b6efdbb-99fe-49c2-a5ba-d449aedea22f" />
+
