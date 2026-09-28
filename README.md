@@ -79,7 +79,16 @@ uno-online/
 ```
 
 ## 5. Tecnologie utilizzate:
-
-## 6. Limiti e sviluppi futuri:
+- **JavaScript**
+- **HTML** — pagina contenitore (`client/index.html`) in cui React monta l'applicazione.
+- **CSS** — stile di tutta l'interfaccia e disegno delle carte.
+- **React** — interfaccia a componenti: le quattro viste (accesso, lobby, sala d'attesa, tavolo) e gli hook che tengono sincronizzati i dati con il server.
+- **Vite** — compila il client in `client/dist/`.
+- **Node.js** — ambiente di esecuzione del server: ospita API, motore di gioco e long-polling.
+- **MySQL** — conserva utenti, sessioni, stanze, partecipanti e partite; lo stato di ogni partita è salvato in una colonna JSON.
+- **mysql2** — driver che collega Node.js a MySQL.
+- **JSON** — formato di scambio tra client e server e formato di salvataggio dello stato della partita.
+- **Long-polling su HTTP** — aggiorna in tempo reale sala d'attesa e partita.
+- **sessionStorage** — conserva nel browser il token e l'utente della sessione, separati per ogni scheda.
 
 
