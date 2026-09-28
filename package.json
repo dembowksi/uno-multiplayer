@@ -1,0 +1,35 @@
+{
+  "name": "uno-online",
+  "version": "0.1.0",
+  "description": "Piattaforma multiplayer online per il gioco di carte UNO - architettura client/server REST su Node.js (Tecnologie Internet, a.a. 2025/2026)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "test": "node --test",
+    "db:init": "node scripts/init-db.js",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "client:dev": "npm run dev --prefix client",
+    "setup": "npm install && npm run client:install && npm run client:build",
+    "build": "npm run client:build"
+  },
+  "keywords": [
+    "uno",
+    "multiplayer",
+    "rest",
+    "node",
+    "express",
+    "mysql",
+    "long-polling"
+  ],
+  "author": "Camilla Dembowski",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
